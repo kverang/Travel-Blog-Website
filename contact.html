@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="IMAGES/favicon.ico.png">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <header>
+                <a href="index.html" class="logo"><img src="IMAGES/favicon.ico.png" alt="Bikini Bottom Travels Icon" width="15%"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        
+        <div class="flexwrap">
+            <!--contact form-->
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h1>Lets <span>Connect!</span></h1>
+                    <hr>
+                    <img src="IMAGES/contact-sticker.png" alt="Spongebob wearing glasses." width="50%">
+                </div>
+                <div class="vertical-line"></div>
+                <div class="contact-form">
+                    <form id="contactForm" action="" method="post">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Name" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Email" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" placeholder="Write us a message!" style="height:200px" required></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Submit">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <footer>
+                <p>2024 © | Akisha Adrienne M. Verang | CS102</p>
+            </footer>
+        </div>
+
+        <script src="JS/form-validation.js"></script>
+    </div>
